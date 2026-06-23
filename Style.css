@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#eef4ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:600px;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+h1{
+    color:#1e293b;
+    margin-bottom:30px;
+}
+
+input{
+    width:100%;
+    padding:15px;
+    font-size:18px;
+    border:2px solid #4f8cff;
+    border-radius:8px;
+    margin-bottom:20px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-bottom:25px;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+#results{
+    padding:25px;
+    border:2px solid #cbd5e1;
+    border-radius:10px;
+    background:#f8fafc;
+    font-size:20px;
+    min-height:100px;
+}
+
+.gradeA{
+    color:green;
+    font-weight:bold;
+}
+
+.gradeB{
+    color:blue;
+    font-weight:bold;
+}
+
+.gradeC{
+    color:orange;
+    font-weight:bold;
+}
+
+.gradeD{
+    color:purple;
+    font-weight:bold;
+}
+
+.gradeF{
+    color:red;
+    font-weight:bold;
+}
+
+.error{
+    color:red;
+    font-weight:bold;
+}
